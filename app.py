@@ -10,7 +10,7 @@ import random
 # Data Viz Pkgs
 #import matplotlib.pyplot as plt 
 from PIL import Image
-import matplotlib 
+#import matplotlib 
 matplotlib.use('Agg')
 import altair as alt 
 import streamlit.components.v1 as stc
