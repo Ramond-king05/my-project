@@ -8,7 +8,7 @@ import random
 
 
 # Data Viz Pkgs
-import matplotlib.pyplot as plt 
+#import matplotlib.pyplot as plt 
 from PIL import Image
 import matplotlib 
 matplotlib.use('Agg')
