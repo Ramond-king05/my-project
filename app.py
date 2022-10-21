@@ -41,7 +41,7 @@ if choice == "Home":
     
     
     
-    image = Image.open(r"C:\Users\user\Desktop\project\myapp\image\image.jpg")
+    image = Image.open("image.jpg")
     st.image(image,caption=None, width=500, use_column_width=100, clamp=False, channels="RGB", output_format="auto")
 
 
