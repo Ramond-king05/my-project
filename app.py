@@ -11,7 +11,7 @@ import random
 #import matplotlib.pyplot as plt 
 from PIL import Image
 #import matplotlib 
-matplotlib.use('Agg')
+#matplotlib.use('Agg')
 import altair as alt 
 import streamlit.components.v1 as stc
 #import neattext.functions as nfx
