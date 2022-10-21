@@ -22,7 +22,7 @@ nlp = spacy.load("en_core_web_md")
 import nltk
 nltk.download('punkt')
 nltk.download('maxent_treebank_pos_tagger')
-ownload('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger')
 
 HTML_RANDOM_TEMPLATE = """
 <div style='padding:10px;background-color:#E1E2E1;
