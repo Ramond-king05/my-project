@@ -81,7 +81,7 @@ if choice == "Home":
 
         # Search Topic/Term
         search_term = st.text_input("Term/Topic")
-        with st.expander("View Results"):
+        with st.beta_expander("View Results"):
             retrieved_df = df[df["text"].str.contains(search_term)]
             st.dataframe(retrieved_df[["book", "chapter", "verse", "text"]])
 
