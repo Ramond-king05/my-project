@@ -19,6 +19,9 @@ import spacy
 from spacy import displacy
 nlp = spacy.load("en_core_web_md")
 
+import nltk
+nltk.download('punkt')
+
 HTML_RANDOM_TEMPLATE = """
 <div style='padding:10px;background-color:#E1E2E1;
 			border-radius: 8px 34px 9px 26px;
