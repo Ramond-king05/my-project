@@ -112,25 +112,25 @@ elif choice == "MultiVerse":
         with st.beta_expander('Visualize Entities'):
             render_entities( docx)
         
-        with st.expander("Visualize Pos Tags"):
+        with st.beta_expander("Visualize Pos Tags"):
                 tagged_docx = get_tags(docx)
                 processed_tags = mytag_visualizer(tagged_docx)
                 # st.write(processed_tags)# Raw
                 stc.html(processed_tags, height=1000, scrolling=True)
         
-        with st.expander("Keywords"):
+        with st.beta_expander("Keywords"):
                 processed_docx = nfx.remove_stopwords(docx)
                 keywords_tokens = get_most_common_tokens(processed_docx, 5)
                 st.write(keywords_tokens)
 
-    with st.expander("Verse Curve"):
+    with st.beta_expander("Verse Curve"):
         plot_mendelhall_curve(docx)
     
-    with st.expander("Word Freq Plot"):
+    with st.beta_expander("Word Freq Plot"):
         plot_word_freq_with_altair(docx)
     
 
-    with st.expander("Pos Tags Plot"):
+    with st.beta_expander("Pos Tags Plot"):
                 tagged_docx = get_tags(docx)
                 tagged_df = pd.DataFrame(tagged_docx, columns=["Tokens", "Tags"])
                 st.dataframe(tagged_df)
