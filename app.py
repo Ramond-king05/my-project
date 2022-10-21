@@ -109,7 +109,7 @@ elif choice == "MultiVerse":
     
     with col2:
         st.success('Study Mode')
-        with st.expander('Visualize Entities'):
+        with st.beta_expander('Visualize Entities'):
             render_entities( docx)
         
         with st.expander("Visualize Pos Tags"):
