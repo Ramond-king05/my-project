@@ -8,13 +8,13 @@ import random
 
 
 # Data Viz Pkgs
-#import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt 
 from PIL import Image
-#import matplotlib 
-#matplotlib.use('Agg')
+import matplotlib 
+matplotlib.use('Agg')
 import altair as alt 
 import streamlit.components.v1 as stc
-#import neattext.functions as nfx
+import neattext.functions as nfx
 from template import HTML_RANDOM_TEMPLATE,render_entities,get_tags,mytag_visualizer,plot_mendelhall_curve,plot_word_freq_with_altair,get_most_common_tokens
 
 
