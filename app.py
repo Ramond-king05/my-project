@@ -141,6 +141,9 @@ elif choice == "MultiVerse":
 else:
     st.subheader("ABOUT THE APP")
     st.text("A BIBLE SCAN APP")
+    image = Image.open("image/my.jpg")
+
+    st.image(image,caption=None, width=500, use_column_width=100, clamp=False, channels="RGB", output_format="auto")
     st.text("POWERED BY:FASASI ABDULRAHMAN TEMITOPE")
     st.text("I can see that you are impressed after checking my work")
     st.text("Oya start bringing work ooo")
