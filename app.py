@@ -143,7 +143,7 @@ else:
     st.text("MY NAME IS FASASI ABDULRAHMAN TEMITOPE, I'M A MACHINE LEARNING AND ARTIFICIAL INTELLIGIENCE DEVELOPER.")
     image = Image.open("image/my.jpg")
 
-    st.image(image,caption=None, width=100, use_column_width=50, clamp=False, channels="RGB", output_format="auto")
+    st.image(image,caption=None, width=10, use_column_width=10, clamp=False, channels="RGB", output_format="auto")
     st.subheader("ABOUT THE APP")
     st.text("A BIBLE SCAN APP")
     st.text("POWERED BY:FASASI ABDULRAHMAN TEMITOPE")
