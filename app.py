@@ -147,7 +147,7 @@ else:
     ''')
     image = Image.open("image/my.jpg")
 
-    st.image(image,caption=None, width=10, use_column_width=10, clamp=False, channels="RGB", output_format="auto")
+    st.image(image,caption=None, width=490, use_column_width=100, clamp=False, channels="RGB", output_format="auto")
     st.subheader("ABOUT THE APP")
     st.text("A BIBLE SCAN APP")
     st.text("POWERED BY:FASASI ABDULRAHMAN TEMITOPE")
