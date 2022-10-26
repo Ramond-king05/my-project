@@ -141,8 +141,8 @@ elif choice == "MultiVerse":
 else:
     st.subheader("ABOUT THE DEVELOPER")
     st.text('''
-    MY NAME IS FASASI ABDULRAHMAN TEMITOPE.
-    I'M A MACHINE LEARNING AND ARTIFICIAL INTELLIGIENCE DEVELOPER.
+    MY NAME IS FASASI ABDULRAHMAN TEMITOPE
+    I'M A MACHINE LEARNING AND ARTIFICIAL INTELLIGIENCE DEVELOPER
     I CREATED THIS APPLICATION SO AS TO HELP PEOPLE TO BE ABLE TO UNDERSTAND THE BIBLE
     ''')
     image = Image.open("image/my.jpg")
@@ -155,8 +155,8 @@ else:
     st.text("Oya start bringing work ooo")
     st.success("AN NLP PROJECT")
     st.balloons()
-    #st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-    #st.caption("Omo You look good")
-    #st.write("wow")
+    st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
+    st.caption("Omo You look good")
+    st.write("wow")
     
 
