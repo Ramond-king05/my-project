@@ -155,8 +155,8 @@ else:
     st.text("Oya start bringing work ooo")
     st.success("AN NLP PROJECT")
     st.balloons()
-    st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-    st.caption("Omo You look good")
-    st.write("wow")
+    #st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
+    #st.caption("Omo You look good")
+    #st.write("wow")
     
 
