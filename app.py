@@ -42,7 +42,7 @@ if choice == "Home":
     
     
     image = Image.open("image/image.jpg")
-    st.image(image,caption=None, width=400, use_column_width=70, clamp=False, channels="RGB", output_format="auto")
+    st.image(image,caption=None, width=100, use_column_width=50, clamp=False, channels="RGB", output_format="auto")
 
 
 
