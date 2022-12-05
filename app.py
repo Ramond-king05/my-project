@@ -18,7 +18,7 @@ import neattext.functions as nfx
 from template import HTML_RANDOM_TEMPLATE,render_entities,get_tags,mytag_visualizer,plot_mendelhall_curve,plot_word_freq_with_altair,get_most_common_tokens
 
 
-st.set_page_config(page_icon="📖", page_title="Bible App")
+#st.set_page_config(page_icon="📖", page_title="Bible App")
 
 def load_bible(data): # function to load bible
 	df = pd.read_csv(data)
