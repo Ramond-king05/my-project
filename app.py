@@ -100,7 +100,7 @@ elif choice == "MultiVerse":
     st.info(passage_details)
 
     # Layout
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     # Join all text as a sentence
     docx = " ".join(selected_passage["text"].tolist())
     with col1:
