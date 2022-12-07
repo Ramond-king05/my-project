@@ -25,7 +25,6 @@ def load_bible(data): # function to load bible
 	return df
 
 st.title("Scan The Bible")
-st.set_page_config(layout="centered",page_icon="📖", page_title="Bible App")
 
 menu = ["Home","MultiVerse","About"]
 df = load_bible("data/KJV.csv")
