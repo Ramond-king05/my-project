@@ -50,7 +50,7 @@ if choice == "Home":
     #st.image("image.jpg")
     #st.image(image.jpg, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     # Layout
-    c1,c2 = st.beta_columns([2,1])
+    c1,c2 = st.columns([2,1])
 
     # Single Verse Layout
     with c1:
