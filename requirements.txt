@@ -2,7 +2,7 @@ altair==4.1.0
 textblob==0.15.3
 pandas==1.1.4
 matplotlib==3.3.3
-streamlit==0.69.0
+streamlit
 neattext==0.0.9
 spacy>=3.4.0,<3.5.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.4.0/en_core_web_md-3.4.0.tar.gz#egg=en_core_web_md
