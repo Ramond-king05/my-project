@@ -154,6 +154,7 @@ else:
     st.text("POWERED BY:FASASI ABDULRAHMAN TEMITOPE")
     st.text("I can see that you are impressed after checking my work")
     st.text("Oya start bringing work ooo")
+    st.success("MY LOGO.png")
     st.success("RAYTECH PROJECT")
     st.balloons()
     #st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
