@@ -161,13 +161,6 @@ else:
     #st.caption("Omo You look good")
     #st.write("wow")
     
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 	
-	
+
 	
 
