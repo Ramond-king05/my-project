@@ -16,6 +16,8 @@ matplotlib.use('Agg')
 import altair as alt 
 import streamlit.components.v1 as stc
 import neattext.functions as nfx
+import cohere
+from cohere.client import CohereClient
 from template import HTML_RANDOM_TEMPLATE,render_entities,get_tags,mytag_visualizer,plot_mendelhall_curve,plot_word_freq_with_altair,get_most_common_tokens
 
 
@@ -29,6 +31,9 @@ st.title("Scan The Bible")
 
 menu = ["Home","MultiVerse","About"]
 df = load_bible("data/KJV.csv")
+
+client = CohereClient(api_key="Hxw2IiJ8xzSnwPzmL38pYTzrwEj0LTOWwnD1uu1o")
+
 
 choice = st.sidebar.selectbox("Menu",menu)
 if choice == "Home":
