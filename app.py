@@ -151,7 +151,7 @@ elif choice == "MultiVerse":
                 df_tag_count = tagged_df["Tags"].value_counts().to_frame("counts")
                 df_tag_count["tag_type"] = df_tag_count.index
                 st.dataframe(df_tag_count)
-
+'''
 else:
     st.subheader("ABOUT THE DEVELOPER")
     st.text('''
@@ -173,7 +173,7 @@ else:
     #st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
     #st.caption("Omo You look good")
     #st.write("wow")
-    
+'''    
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
