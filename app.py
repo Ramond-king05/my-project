@@ -154,11 +154,12 @@ elif choice == "MultiVerse":
 '''
 else:
     st.subheader("ABOUT THE DEVELOPER")
-    st.text('''
+    #st.text('''
     #MY NAME IS FASASI ABDULRAHMAN TEMITOPE
     #I'M A MACHINE LEARNING AND ARTIFICIAL INTELLIGIENCE DEVELOPER
     #I CREATED THIS APPLICATION SO AS TO HELP PEOPLE TO BE ABLE TO UNDERSTAND THE BIBLE
-    ''')
+    #''')
+'''
     image = Image.open("image/my.jpg")
 
     st.image(image,caption=None, width=490, use_column_width=1, clamp=False, channels="RGB", output_format="auto")
