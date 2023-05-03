@@ -151,37 +151,6 @@ elif choice == "MultiVerse":
                 df_tag_count = tagged_df["Tags"].value_counts().to_frame("counts")
                 df_tag_count["tag_type"] = df_tag_count.index
                 st.dataframe(df_tag_count)
-'''
-else:
-    st.subheader("ABOUT THE DEVELOPER")
-    #st.text('''
-    #MY NAME IS FASASI ABDULRAHMAN TEMITOPE
-    #I'M A MACHINE LEARNING AND ARTIFICIAL INTELLIGIENCE DEVELOPER
-    #I CREATED THIS APPLICATION SO AS TO HELP PEOPLE TO BE ABLE TO UNDERSTAND THE BIBLE
-    #''')
-'''
-    image = Image.open("image/my.jpg")
 
-    st.image(image,caption=None, width=490, use_column_width=1, clamp=False, channels="RGB", output_format="auto")
-    st.subheader("ABOUT THE APP")
-    st.text("A BIBLE SCAN APP")
-    st.text("POWERED BY:FASASI ABDULRAHMAN TEMITOPE")
-    st.text("I can see that you are impressed after checking my work")
-    st.text("Oya start bringing work oo")
-    st.image("MY LOGO.png")
-    st.success("RAYTECH PROJECT")
-    st.balloons()
-    #st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-    #st.caption("Omo You look good")
-    #st.write("wow")
-'''    
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-	
+
 
