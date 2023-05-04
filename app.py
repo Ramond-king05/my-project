@@ -157,9 +157,9 @@ else:
     st.image("MY LOGO.png")
     st.success("RAYTECH PROJECT")
     st.balloons()
-    st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-    st.caption("Omo You look good")
-    st.write("wow")
+    #st.camera_input(label="Take a selfie jhoor", key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
+    #st.caption("Omo You look good")
+    #st.write("wow")
    
 hide_streamlit_style = """
             <style>
